@@ -23,11 +23,11 @@ First extract amplitude envelopes from audio files and train an autoencoder to l
 2. **Convert Audio to Envelopes**  
    Use the provided utility to extract amplitude envelopes:
    ```bash
-   python data_gen.py --input_dir path/to/audio --output_dir path/to/envelopes
+   python data_gen.py 
    ```
 
 3. **Configure Dataset Paths**  
-   Modify `configs/dataset_configs/train.json` and optionally `val.json` to point to your envelope directory.
+   Modify `configs/dataset_configs/train.json` and optionally `configs/dataset_configs/val.json` to point to your envelope directory.
 
 4. **Train Autoencoder**  
    Make sure your hyperparameters in `defaults.ini` are correct, then run:
@@ -41,7 +41,7 @@ A pretrained autoencoder checkpoint, trained for 10k steps on the AudioCaps trai
 
 ```bash
 gdown 1n_5b_SXyPkonPb5cc6Sa2NIetunGAB8D
-mv autoencoder_ckpt.pth stable-audio-tools/ckpts/
+mv model_unwrap_10k_full_train.ckpt stable-audio-tools/ckpts/
 ```
 
 ---
