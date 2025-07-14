@@ -5,6 +5,8 @@
 Official code for the WASPAA 2025 paper: Learning Perceptually Relevant Temporal Envelope Morphing. This repository contains code for a framework for learning perceptually meaningful morphs over temporal amplitude envelopes of audio. The code is divided into two main stages:
 
 ---
+![Model](assets/fig.png)
+---
 
 ## Stage 1: Envelope Autoencoder Training
 
