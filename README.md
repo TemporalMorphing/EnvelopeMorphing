@@ -10,7 +10,7 @@ Official code for the WASPAA 2025 paper: Learning Perceptually Relevant Temporal
 
 First extract amplitude envelopes from audio files and train an autoencoder to learn a compact latent representation. This stage builds on [Stable Audio Tools](https://github.com/Stability-AI/stable-audio-tools).
 
-### Traininng autoencoder:
+### Training autoencoder:
 
 1. **Install Stable Audio Tools**
    ```bash
