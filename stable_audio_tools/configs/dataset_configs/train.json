@@ -1,0 +1,10 @@
+{
+    "dataset_type": "audio_dir",
+    "datasets": [
+        {
+            "id": "my_audio_train",
+            "path": "path_to_train_audio_directory"
+        }
+    ],
+    "random_crop": false
+}
