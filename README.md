@@ -77,3 +77,8 @@ If you find this project useful, please cite our paper:
   year={2025}
 }
 ```
+---
+
+## Perceptual Studies
+
+For Supplementary details of perceptual studies: https://doi.org/10.1184/R1/29525948
